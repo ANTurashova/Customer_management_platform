@@ -1,0 +1,6 @@
+python manage.py runserver  -> запуск сайта
+python manage.py migrate  -> первая миграция
+python manage.py createsuperuser  -> первое создание админа базы данных
+http://127.0.0.1:8000/admin/
+python manage.py makemigrations  -> после создания модели (создаст файл в миграциях)
+python manage.py migrate  -> миграцию добавит в базу данных
